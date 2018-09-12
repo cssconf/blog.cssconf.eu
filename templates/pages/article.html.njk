@@ -1,0 +1,22 @@
+{% extends "../layouts/default.html.njk" %}
+
+{% from "../_macros.njk" import pageIntro %}
+
+{% block content %}
+  {{
+    pageIntro(
+      page.title,
+      moment.utc(page.metadata.date).format('dddd, MMMM Do, YYYY')
+    )
+  }}
+
+  <div class="l-container">
+    <main>
+      <article class="c-blog-post">
+        <div class="c-markdown c-markdown--indented-paragraphs">
+          {{ page.html }}
+        </div>
+      </article>
+    </main>
+  </div>
+{% endblock %}

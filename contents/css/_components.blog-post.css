@@ -1,0 +1,18 @@
+.c-blog-post {
+  .blog-img {
+    margin-left: calc(var(--l-unit) * 8);
+    text-align: center;
+  }
+}
+
+.c-blog-post__time {
+  color: var(--c-blue-violet);
+  margin-bottom: calc(var(--l-unit) * 4);
+  display: block;
+  font-weight: bold;
+}
+
+.c-blog-post__more {
+  margin-top: calc(var(--l-unit) * 4);
+  text-align: right;
+}

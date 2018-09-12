@@ -1,0 +1,37 @@
+{% extends "../layouts/default.html.njk" %}
+
+{% from "../_macros.njk" import svgIcon %}
+
+{% block content %}
+  <div class="l-container">
+    <main>
+      {% for article in articles %}
+        <article class="c-blog-post">
+          <div class="c-markdown c-markdown--indented-paragraphs">
+            <h2>
+              <a href="{{ article.url }}">{{ article.title }}</a>
+            </h2>
+            <time class="c-blog-post__time">{{ moment.utc(article.metadata.date).format('dddd, MMMM Do, YYYY') }}</time>
+            {% set excerpt = article.metadata.excerpt %}
+            {% if excerpt %}
+              <p>{{ excerpt }}…</p>
+            {% else %}
+              {{ article.intro }}
+            {% endif %}
+            <div class="c-blog-post__more">
+              <a href="{{ article.url }}">Read more &raquo;</a>
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+      <nav class="c-blog-pagination fz--epsilon">
+        {% if prevPage %}
+          <a href="{{ prevPage.url }}">&laquo; Prev Page</a>
+        {% endif %}
+        {% if nextPage %}
+          <a href="{{ nextPage.url }}">Next Page &raquo;</a>
+        {% endif %}
+      </nav>
+    </main>
+  </div>
+{% endblock %}

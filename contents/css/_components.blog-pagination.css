@@ -1,0 +1,8 @@
+.c-blog-pagination {
+  display: flex;
+  justify-content: center;
+
+  a {
+    margin: calc(var(--l-unit) * 2);
+  }
+}
