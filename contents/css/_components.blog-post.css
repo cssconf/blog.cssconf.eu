@@ -1,7 +1,26 @@
 .c-blog-post {
   .blog-img {
-    margin-left: calc(var(--l-unit) * 8);
+    margin-bottom: calc(var(--l-unit) * 2);
+    margin-top: calc(var(--l-unit) * 2);
     text-align: center;
+  }
+
+  .blog-img--right {
+    float: right;
+    margin-left: calc(var(--l-unit) * 4);
+  }
+
+  .blog-img--left {
+    float: left;
+    margin-right: calc(var(--l-unit) * 4);
+  }
+
+  hr {
+    border: 0;
+    border-top: 2px solid #c4c4c4;
+    margin-bottom: calc(var(--l-unit) * 4);
+    margin-top: calc(var(--l-unit) * 4);
+    padding: 0;
   }
 }
 
