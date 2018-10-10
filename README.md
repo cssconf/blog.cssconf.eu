@@ -1,6 +1,6 @@
-# 2019.cssconf.eu
+# blog.cssconf.eu
 
-This repository hosts the sourcecode and the website (in branch [`gh-pages`][gh-pages]) of the CSSconf EU site 2019.
+This repository hosts the source code and the website (in branch [`gh-pages`][gh-pages]) of the CSSconf EU's blog.
 
 ## up and running:
 
@@ -64,7 +64,7 @@ Depending on what you want to debug, find the corresponding file, set a breakpoi
 In the sources-panel, search for and open (Cmd+O) the file `plugins/nunjucks.js`, find the `NunjucksTemplate.render`-function towards the bottom of the file and put a breakpoint there. Reload the page.
 
 
-[gh-pages]: https://github.com/cssconf/2019.cssconf.eu/tree/gh-pages
+[gh-pages]: https://github.com/cssconf/blog.cssconf.eu/tree/gh-pages
 [nunjucks template-engine]: https://mozilla.github.io/nunjucks/
 [templating docs]: https://mozilla.github.io/nunjucks/templating.html
 [wintersmith-documentation]: https://github.com/jnordberg/wintersmith#quick-start
