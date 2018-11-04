@@ -14,11 +14,13 @@ You’ve watched countless talks online. You’ve written a blog post, or ten. Y
 
 Well, we think so, too! It’s time to get your talk proposals ready for the upcoming conference season, and we have some tips and insights on how to write a compelling talk proposal that will help you conquer the big conference stages.
 
-🔔 CfS open now: The 2018 CSSconf EU Call for Speakers is open for submissions until January 1 2018. As always, we are super excited to receive yours!
-
-<a href="http://2018.cssconf.eu/call-for-speakers" class="c-btn">
-  <span class="btn__span" data-hover="Submit a Talk Proposal">Submit a Talk Proposal</span>
-</a>
+<div class="c-announcement">
+  <h2 class="c-announcement__title">🔔 CSSconf EU 2019: CfS open! 🔔</h2>
+  <p>The 2019 CSSconf EU Call for Speakers is open for submissions until December 23 2018. As always, we are super excited to receive yours!</p>
+  <p class="btn-block">
+    <a href="https://2019.cssconf.eu/call-for-speakers" class="c-btn">Submit a Talk Proposal</a>
+  </p>
+</div>
 
 ## Getting your topic right
 
@@ -125,10 +127,10 @@ Many others have shared their insights on how to write successful talk proposals
 * [Russ Unger: Conference Proposals That Don’t Suck](http://alistapart.com/article/conference-proposals-that-dont-suck)
 * [Shop Talk 063 with Rachel Nabors (Podcast)](http://shoptalkshow.com/episodes/with-rachel-nabors/)
 
----
-
-🔔 CfS open now: The 2018 CSSconf EU Call for Speakers is open for submissions until January 1 2018. As always, we are super excited to receive yours!
-
-<a href="http://2018.cssconf.eu/call-for-speakers" class="c-btn">
-  <span class="btn__span" data-hover="Submit a Talk Proposal">Submit a Talk Proposal</span>
-</a>
+<div class="c-announcement">
+  <h2 class="c-announcement__title">🔔 CSSconf EU 2019: CfS open! 🔔</h2>
+  <p>The 2019 CSSconf EU Call for Speakers is open for submissions until December 23 2018. As always, we are super excited to receive yours!</p>
+  <p class="btn-block">
+    <a href="https://2019.cssconf.eu/call-for-speakers" class="c-btn">Submit a Talk Proposal</a>
+  </p>
+</div>
